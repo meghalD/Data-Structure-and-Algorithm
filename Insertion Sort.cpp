@@ -23,7 +23,7 @@ int main()
 	printf("Enter the array size:");
 	scanf("%d",&n);
 	int a[n];
-	printf("Enter the sorted array:");
+	printf("Enter the array:");
 	for(i=0;i<n;i++)
 		scanf("%d",&a[i]);
 	insertion_sort(a,n);
